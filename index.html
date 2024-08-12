@@ -1,0 +1,510 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="apple-touch-icon" sizes="180x180" href="/assets/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon/favicon-16x16.png">
+    <link rel="manifest" href="/assets/favicon/site.webmanifest">
+    <link rel="mask-icon" href="/assets/favicon/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+    <!-- Bootstrap Css -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+
+    <!-- Owl Carousel -->
+    <link rel="stylesheet" href="./assets/owlCarousel/dist/assets/owl.carousel.css" />
+    <link rel="stylesheet" href="./assets/owlCarousel/dist/assets/owl.theme.default.css" />
+
+
+    <link rel="stylesheet" href="./style.css">
+
+    <title>BookNest</title>
+</head>
+
+<body>
+    <div class="root">
+        <div class="container">
+            <header>
+                <div class="top-wrapper">
+                    <div class="logo"><img src="assets/images/logo.png" alt=""></div>
+                    <div class="top-right">
+                        <div class="book-nav">
+                            <nav class="book__navbar">
+                                <ul>
+                                    <li><a href="">Home</a></li>
+                                    <li><a href="">Books</a></li>
+                                    <li><a href="">Fiction</a></li>
+                                    <li><a href="">Non Fiction</a></li>
+                                    <li><a href="" class="highlight">Sale</a></li>
+                                </ul>
+                            </nav>
+                        </div>
+                        <div class="cta-right">
+                            <div class="search"><i class='bx bx-search-alt'></i></div>
+                            <div class="user"><i class='bx bx-user'></i></div>
+                            <div class="appearance"><i class='bx bx-sun'></i></div>
+                        </div>
+                        <div class="nav__toggler">
+                            <span class="bar"></span>
+                        </div>
+                    </div>
+                </div>
+            </header>
+            <main class="main">
+                <!-- Home -->
+                <section class="home section" id="home">
+                    <div class="home__container">
+                        <div class="home__data">
+                            <h1 class="home__title">
+                                Find, Buy, Read – It’s That<br>
+                                Simple
+                            </h1>
+                            <p class="home__description">
+                                Explore a world of books at your fingertips, with fast delivery and a curated selection
+                                for every reader.
+                            </p>
+                            <a href="" class="button">Explore Now</a>
+                        </div>
+                        <div class="home__images">
+                            <div class="home__swiper swiper">
+                                <div class="swiper-wrapper">
+                                    <article class="home__article swiper-slide">
+                                        <img src="./assets/images/book1.jpg" alt="image" class="home__img">
+                                    </article>
+                                    <article class="home__article swiper-slide">
+                                        <img src="./assets/images/book2.jpg" alt="image" class="home__img">
+                                    </article>
+                                    <article class="home__article swiper-slide">
+                                        <img src="./assets/images/book3.jpg" alt="image" class="home__img">
+                                    </article>
+                                    <article class="home__article swiper-slide">
+                                        <img src="./assets/images/book4.jpg" alt="image" class="home__img">
+                                    </article>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <!-- Features -->
+                <section class="feature">
+                    <div class="feature__wrapper">
+                        <article class="shipping common__feature">
+                            <img src="./assets/images/shipping.png" alt="">
+                            <h4>Free Shippping</h4>
+                            <p>Order more than 5 books and get free delivery</p>
+                        </article>
+                        <article class="shipping common__feature">
+                            <img src="./assets/images/lock.png" alt="">
+                            <h4>Secure Payment</h4>
+                            <p>100% Secure payment system</p>
+                        </article>
+                        <article class="shipping common__feature">
+                            <img src="./assets/images/support.png" alt="">
+                            <h4>24/7 Support</h4>
+                            <p>Call us anytime</p>
+                        </article>
+                    </div>
+
+                </section>
+                <!-- Top sellers -->
+                <section class="common-wrapper">
+                    <div class="title">
+                        <h2>Top Sellers</h2>
+                        <p>Explore the best selling books</p>
+                    </div>
+                    <div class="book-wrapper">
+                        <div id="demos">
+                            <div class="row">
+                                <div class="owl-carousel owl-theme" id="best__seller">
+                                    <div class="item book">
+                                        <figure>
+                                            <a href="#">
+                                                <img src="./assets/images/book5.jpg" alt="" />
+                                            </a>
+                                        </figure>
+                                        <figcaption>
+                                            <ul>
+                                                <li>
+                                                    <h3>Check & Mate</h3>
+                                                </li>
+                                                <li class="price"><span>Rs. 799</span></li>
+                                                <li><a href="" class="button">Add to cart</a></li>
+                                            </ul>
+                                        </figcaption>
+                                    </div>
+                                    <div class="item book">
+                                        <figure>
+                                            <a href="#">
+                                                <img src="./assets/images/book6.jpg" alt="" />
+                                            </a>
+                                        </figure>
+                                        <figcaption>
+                                            <ul>
+                                                <li>
+                                                    <h3>Ink Blood Sister Scribe</h3>
+                                                </li>
+                                                <li class="price"><span>Rs. 569</span></li>
+                                                <li><a href="" class="button">Add to cart</a></li>
+                                            </ul>
+                                        </figcaption>
+                                    </div>
+                                    <div class="item book">
+                                        <figure>
+                                            <a href="#">
+                                                <img src="./assets/images/book7.jpg" alt="" />
+                                            </a>
+                                        </figure>
+                                        <figcaption>
+                                            <ul>
+                                                <li>
+                                                    <h3>The Grandest Game</h3>
+                                                </li>
+                                                <li class="price"><span>Rs. 569</span></li>
+                                                <li><a href="" class="button">Add to cart</a></li>
+                                            </ul>
+                                        </figcaption>
+                                    </div>
+                                    <div class="item book">
+                                        <figure>
+                                            <a href="#">
+                                                <img src="./assets/images/book12.jpg" alt="" />
+                                            </a>
+                                        </figure>
+                                        <figcaption>
+                                            <ul>
+                                                <li>
+                                                    <h3>Becoming Earth</h3>
+                                                </li>
+                                                <li class="price"><span>Rs. 498</span></li>
+                                                <li><a href="" class="button">Add to cart</a></li>
+                                            </ul>
+                                        </figcaption>
+                                    </div>
+                                    <div class="item book">
+                                        <figure>
+                                            <a href="#">
+                                                <img src="./assets/images/book11.jpg" alt="" />
+                                            </a>
+                                        </figure>
+                                        <figcaption>
+                                            <ul>
+                                                <li>
+                                                    <h3>Toward Eternity</h3>
+                                                </li>
+                                                <li class="price"><span>Rs. 869</span></li>
+                                                <li><a href="" class="button">Add to cart</a></li>
+                                            </ul>
+                                        </figcaption>
+                                    </div>
+                                    <div class="item book">
+                                        <figure>
+                                            <a href="#">
+                                                <img src="./assets/images/book10.jpg" alt="" />
+                                            </a>
+                                        </figure>
+                                        <figcaption>
+                                            <ul>
+                                                <li>
+                                                    <h3>The Great Gatsby</h3>
+                                                </li>
+                                                <li class="price"><span>Rs. 869</span></li>
+                                                <li><a href="" class="button">Add to cart</a></li>
+                                            </ul>
+                                        </figcaption>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Offers -->
+                <section class="comon-wrapper offer">
+                    <div class="offer__wrapper">
+                        <div class="offer__left"><img src="./assets/images/offer.png" alt=""></div>
+                        <div class="offer__right">
+                            <h2>Up to 50% discount</h2>
+                            <p>Take the discount days we have for you, buy books from your favorite writer. Check the
+                                <a href="" class="highlight">sale</a> section for detailed info!
+                            </p>
+                            <a href="./" class="button">Explore Now</a>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- New Arrivals -->
+                <section class="common-wrapper new__arrivals">
+                    <div class="title">
+                        <h2>New Arrivals</h2>
+                        <p>Check out the newly arrived books</p>
+                    </div>
+                    <div class="book-wrapper new_arrival">
+                        <div id="demos">
+                            <div class="row">
+                                <div class="owl-carousel owl-theme" id="new__books">
+                                    <div class="item book">
+                                        <figure>
+                                            <a href="#">
+                                                <img src="./assets/images/book13.jpg" alt="" />
+                                            </a>
+                                        </figure>
+                                        <figcaption>
+                                            <ul>
+                                                <li>
+                                                    <h3>Check & Mate</h3>
+                                                </li>
+                                                <li>
+                                                    <p>Auther: Frank Herbert</p>
+                                                </li>
+                                                <li class="price"><span>Rs. 799</span></li>
+                                                <li><a href="" class="button">Add to cart</a></li>
+                                            </ul>
+                                        </figcaption>
+                                    </div>
+                                    <div class="item book">
+                                        <figure>
+                                            <a href="#">
+                                                <img src="./assets/images/book15.jpg" alt="" />
+                                            </a>
+                                        </figure>
+                                        <figcaption>
+                                            <ul>
+                                                <li>
+                                                    <h3>Whoever You are, Honey</h3>
+                                                </li>
+                                                <li>
+                                                    <p>Auther: Olivia Gatwood</p>
+                                                </li>
+                                                <li class="price"><span>Rs. 799</span></li>
+                                                <li><a href="" class="button">Add to cart</a></li>
+                                            </ul>
+                                        </figcaption>
+                                    </div>
+                                    <div class="item book">
+                                        <figure>
+                                            <a href="#">
+                                                <img src="./assets/images/book16.jpg" alt="" />
+                                            </a>
+                                        </figure>
+                                        <figcaption>
+                                            <ul>
+                                                <li>
+                                                    <h3>Stefi & Spanish Prince</h3>
+                                                </li>
+                                                <li>
+                                                    <p>Auther: Donna Freiatas</p>
+                                                </li>
+                                                <li class="price"><span>Rs. 875</span></li>
+                                                <li><a href="" class="button">Add to cart</a></li>
+                                            </ul>
+                                        </figcaption>
+                                    </div>
+                                    <div class="item book">
+                                        <figure>
+                                            <a href="#">
+                                                <img src="./assets/images/book17.jpg" alt="" />
+                                            </a>
+                                        </figure>
+                                        <figcaption>
+                                            <ul>
+                                                <li>
+                                                    <h3>The Light Pirate</h3>
+                                                </li>
+                                                <li>
+                                                    <p>Auther: Lily Brooks</p>
+                                                </li>
+                                                <li class="price"><span>Rs. 650</span></li>
+                                                <li><a href="" class="button">Add to cart</a></li>
+                                            </ul>
+                                        </figcaption>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                
+                <!-- Testimonials -->
+                <section id="page" class="site common-wrapper">
+                    <div class="container">
+                        <div class="testi">
+                            <div class="title">
+                                <span>Read Reviews</span>
+                                <h2>See what our clients says.</h2>
+                            </div>
+                            <div class="body swiper swiperTest">
+                                <ul class="swiper-wrapper">
+                                    <li class="swiper-slide">
+                                        <div class="wrapper">
+                                            <div class="thumbnail">
+                                                <img src="./assets/images/image1.jpg" alt="" />
+                                            </div>
+                                            <div class="aside">
+                                                <span class="rev-title">"A Book Lover's Paradise"</span>
+                                                <p>
+                                                    Lorem, ipsum dolor sit amet consectetur adipisicing
+                                                    elit. Magnam maxime earum in repudiandae? consectetur
+                                                    adipisicing <a href="">Continue Reading!</a>
+                                                </p>
+                                                <div class="name">
+                                                    <h4>Justin Lee</h4>
+                                                    <p>Sydney, Australia</p>
+                                                </div>
+                                                <div class="stars">
+                                                    <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                                        class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                                        class="fa-solid fa-star"></i>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="swiper-slide">
+                                        <div class="wrapper">
+                                            <div class="thumbnail">
+                                                <img src="./assets/images/image2.jpg" alt="" />
+                                            </div>
+                                            <div class="aside">
+                                                <span class="rev-title">"Exceptional Service and Great Deals"</span>
+
+                                                <p>
+                                                    Lorem, ipsum dolor sit amet consectetur adipisicing
+                                                    elit. Magnam maxime earum in repudiandae? Corrupti porro
+                                                    cumque ipsum, vero. <a href="">Continue Reading!</a>
+                                                </p>
+                                                <div class="name">
+                                                    <h4>Sarah Malik</h4>
+                                                    <p>Texas, U.S.A</p>
+                                                </div>
+                                                <div class="stars">
+                                                    <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                                        class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                                        class="fa-solid fa-star"></i>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="swiper-slide">
+                                        <div class="wrapper">
+                                            <div class="thumbnail">
+                                                <img src="./assets/images/image3.jpg" alt="" />
+                                            </div>
+                                            <div class="aside">
+                                                <span class="rev-title">"A Delightful Online Bookstore"</span>
+
+                                                <p>
+                                                    Lorem, ipsum dolor sit amet consectetur adipisicing
+                                                    elit. Magnam maxime earum in repudiandae? Corrupti porro
+                                                    cumque ipsum, vero nostrum.
+                                                    <a href="">Continue Reading!</a>
+                                                </p>
+                                                <div class="name">
+                                                    <h4>Kelly Wakasa</h4>
+                                                    <p>Sydney, Australia</p>
+                                                </div>
+                                                <div class="stars">
+                                                    <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                                        class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                                        class="fa-solid fa-star"></i>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="swiper-slide">
+                                        <div class="wrapper">
+                                            <div class="thumbnail">
+                                                <img src="./assets/images/image5.jpeg" alt="" />
+                                            </div>
+                                            <div class="aside">
+                                                <span class="rev-title">"Fantastic Customer Experience"</span>
+
+                                                <p>
+                                                    Lorem, ipsum dolor sit amet consectetur adipisicing
+                                                    elit. Magnam maxime earum in repudiandae? Corrupti porro
+                                                    cumque ipsum, vero nostrum.
+                                                    <a href="">Continue Reading!</a>
+                                                </p>
+                                                <div class="name">
+                                                    <h4>Henry Karlson</h4>
+                                                    <p>Canberra, Australia</p>
+                                                </div>
+                                                <div class="stars">
+                                                    <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                                        class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                                        class="fa-solid fa-star"></i>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="swiper-slide">
+                                        <div class="wrapper">
+                                            <div class="thumbnail">
+                                                <img src="./assets/images/image6.jpg" alt="" />
+                                            </div>
+                                            <div class="aside">
+                                                <span class="rev-title">"Quick Delivery and Reliable Service"</span>
+
+                                                <p>
+                                                    Lorem, ipsum dolor sit amet consectetur adipisicing
+                                                    elit. Magnam maxime earum in repudiandae? Corrupti porro
+                                                    cumque ipsum. vero nostrum
+                                                    <a href="">Continue Reading!</a>
+                                                </p>
+                                                <div class="name">
+                                                    <h4>Trent Mathew</h4>
+                                                    <p>Toronto, Canada</p>
+                                                </div>
+                                                <div class="stars">
+                                                    <i class="fa-solid fa-star"></i>
+                                                    <i class="fa-solid fa-star"></i>
+                                                    <i class="fa-solid fa-star"></i>
+                                                    <i class="fa-solid fa-star"></i>
+                                                    <i class="fa-solid fa-star"></i>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                </ul>
+                                <div class="swiper-pagination swiper-pagination2"></div>
+                                <!-- If we need navigation buttons -->
+                                <div class="swiper-button-prev swiper-button-prev-x"></div>
+                                <div class="swiper-button-next swiper-button-next-y"></div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+
+
+            </main>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+
+
+
+    <!---- ====== ICONS ======= -->
+
+    <script src="https://kit.fontawesome.com/0f5385e657.js" crossorigin="anonymous"></script>
+    <!-- Bootstrap Js -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
+
+    <script src="./assets/owlCarousel/dist/owl.carousel.js"></script>
+    <script src="./script.js"></script>
+</body>
+
+</html>
